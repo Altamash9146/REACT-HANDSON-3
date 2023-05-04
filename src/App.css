@@ -1,0 +1,62 @@
+body{
+  background-image: linear-gradient(lightblue, pink,transparent);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.Heading{
+  text-align: center;
+  font-style: italic;
+  color:brown;
+}
+
+.Modifyform{
+position: absolute; left: 35%;
+font-size: larger;
+}
+
+.box{
+  width: 200px;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative; left: 5%;
+  background-color: lightblue;
+}
+
+.box1{
+  position: relative; left: 21.5%;
+}
+
+.Submit{
+  position: absolute; left: 35%;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: aqua;
+  cursor: pointer;
+}
+
+
+.Value-Container{
+display: flex;
+flex-wrap: wrap;
+justify-content:space-evenly;
+border: 2px solid rgba(0, 0, 0, 0);
+position: absolute; top: 5%; left: 3%;
+}
+
+.Value-Box{
+  border: 2px solid black;
+  width: 400px; height: 65px;
+  background-color: palevioletred;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.Back-Button{
+  position: relative; top: 350px ; left: 600px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+  background-color:aqua;
+  cursor: pointer;
+}
