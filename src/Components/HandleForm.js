@@ -37,9 +37,10 @@ return(
 
 <div>
 {hidedata && <div>
-<h1 className="Heading">Employee Feedback Form</h1>
+
 
 <hr></hr>
+<h1 className="Heading">Employee Feedback Form</h1>
 
 <form onSubmit={handleSubmit}>
 
@@ -74,9 +75,11 @@ Rating:
 ))}
 </div>
 
-{hideback && 
+{hideback && <>
+<h1 className="Heading">Employee Feedback Form</h1>
+
 <button className="Back-Button" onClick={ showformdata}>Go back</button>
-}
+</>}
 
 </div>
 )
